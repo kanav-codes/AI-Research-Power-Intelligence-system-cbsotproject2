@@ -38,6 +38,9 @@ What sets this project apart is its multi-layered analytical approach:
 # Search for papers on a specific topic with a keyword filter
 search_and_analyze_papers(
     query="Transformers in computer vision", 
+     filter_keyword="Attention", 
+    k=3
+)
 
 (This returns the top 3 matches with their Confidence Scores and a categorized table of extracted entities.)
 
@@ -56,6 +59,4 @@ Run the notebook to start searching through your research database.
 
 Developed By
 [Kanav Bansal]
-    filter_keyword="Attention", 
-    k=3
-)
+    
